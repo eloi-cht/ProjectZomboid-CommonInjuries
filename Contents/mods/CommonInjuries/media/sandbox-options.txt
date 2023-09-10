@@ -1,0 +1,169 @@
+VERSION = 1,
+
+option CommonInjuries.BaseFailChance
+{
+	type = double,
+	min = 0,
+	max = 100,
+	default = 3,
+	page = CommonInjuries,
+	translation = CommonInjuries_BaseFailChance,
+}
+
+option CommonInjuries.PainScream
+{
+	type = boolean,
+	default = true,
+	page = CommonInjuries,
+	translation = CommonInjuries_PainScream,
+}
+
+option CommonInjuries.FatigueMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100,
+	default = 1,
+	page = CommonInjuries,
+	translation = CommonInjuries_FatigueMultiplier,
+}
+
+option CommonInjuries.FatigueThreshold
+{
+	type = integer,
+	min = 0,
+	max = 99,
+	default =30,
+	page = CommonInjuries,
+	translation = CommonInjuries_FatigueThreshold,
+}
+
+option CommonInjuries.SkillMultiplier
+{
+	type = double,
+	min = 0,
+	max = 10,
+	default = 1,
+	page = CommonInjuries,
+	translation = CommonInjuries_SkillMultiplier,
+}
+
+option CommonInjuries.PainMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =10,
+	page = CommonInjuries,
+	translation = CommonInjuries_PainMinDmg,
+}
+
+option CommonInjuries.PainMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =40,
+	page = CommonInjuries,
+	translation = CommonInjuries_PainMaxDmg,
+}
+
+option CommonInjuries.ScratchMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =30,
+	page = CommonInjuries,
+	translation = CommonInjuries_ScratchMinDmg,
+}
+
+option CommonInjuries.ScratchMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =80,
+	page = CommonInjuries,
+	translation = CommonInjuries_ScratchMaxDmg,
+}
+
+option CommonInjuries.CutMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =30,
+	page = CommonInjuries,
+	translation = CommonInjuries_CutMinDmg,
+}
+
+option CommonInjuries.CutMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =80,
+	page = CommonInjuries,
+	translation = CommonInjuries_CutMaxDmg,
+}
+
+option CommonInjuries.DeepWoundMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =50,
+	page = CommonInjuries,
+	translation = CommonInjuries_DeepWoundMinDmg,
+}
+
+option CommonInjuries.DeepWoundMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =100,
+	page = CommonInjuries,
+	translation = CommonInjuries_DeepWoundMaxDmg,
+}
+
+option CommonInjuries.FractureMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =50,
+	page = CommonInjuries,
+	translation = CommonInjuries_FractureMinDmg,
+}
+
+option CommonInjuries.FractureMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =100,
+	page = CommonInjuries,
+	translation = CommonInjuries_FractureMaxDmg,
+}
+
+option CommonInjuries.BurnMinDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =10,
+	page = CommonInjuries,
+	translation = CommonInjuries_BurnMinDmg,
+}
+
+option CommonInjuries.BurnMaxDmg
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default =80,
+	page = CommonInjuries,
+	translation = CommonInjuries_BurnMaxDmg,
+}

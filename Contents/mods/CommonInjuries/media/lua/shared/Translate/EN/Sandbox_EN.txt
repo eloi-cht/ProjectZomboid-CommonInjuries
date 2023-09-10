@@ -1,0 +1,47 @@
+Sandbox_EN = {
+	Sandbox_CommonInjuries = "Common Injuries",
+	
+	Sandbox_CommonInjuries_BaseFailChance = "Base fail chance",
+	Sandbox_CommonInjuries_BaseFailChance_tooltip = "Base fail chance when doing action.",
+	
+	Sandbox_CommonInjuries_PainScream = "Pain scream",
+	Sandbox_CommonInjuries_PainScream_tooltip = "Character might scream in pain when injured.",
+	
+	Sandbox_CommonInjuries_FatigueMultiplier = "Fatigue multiplier",
+	Sandbox_CommonInjuries_FatigueMultiplier_tooltip = "Multiply the fatigue factor when computing injury chance.", 
+	Sandbox_CommonInjuries_FatigueThreshold = "Fatigue threshold",
+	Sandbox_CommonInjuries_FatigueThreshold_tooltip = "Threshold at which fatigue start to impact injury chance.",
+
+	Sandbox_CommonInjuries_SkillMultiplier = "Skill Multiplier",
+	Sandbox_CommonInjuries_SkillMultiplier_tooltip = "Multiply the skill factor when computing injury chance.",
+	
+	Sandbox_CommonInjuries_PainMinDmg = "Pain min damage",
+	Sandbox_CommonInjuries_PainMinDmg_tooltip = "Minimum damage of pain injuries.",
+	Sandbox_CommonInjuries_PainMaxDmg = "Pain max damage",
+	Sandbox_CommonInjuries_PainMaxDmg_tooltip = "Maximum damage of pain injuries.",
+	
+	Sandbox_CommonInjuries_ScratchMinDmg = "Scratch min damage",
+	Sandbox_CommonInjuries_ScratchMinDmg_tooltip = "Minimum damage of scratch injuries.",
+	Sandbox_CommonInjuries_ScratchMaxDmg = "Scratch max damage",
+	Sandbox_CommonInjuries_ScratchMaxDmg_tooltip = "Maximum damage of scratch injuries.",
+	
+	Sandbox_CommonInjuries_CutMinDmg = "Cut min damage",
+	Sandbox_CommonInjuries_CutMinDmg_tooltip = "Minimum damage of cut injuries.",
+	Sandbox_CommonInjuries_CutMaxDmg = "Cut max damage",
+	Sandbox_CommonInjuries_CutMaxDmg_tooltip = "Maximum damage of cut injuries.",
+	
+	Sandbox_CommonInjuries_DeepWoundMinDmg = "Deep wound min damage",
+	Sandbox_CommonInjuries_DeepWoundMinDmg_tooltip = "Minimum damage of deep wound injuries.",
+	Sandbox_CommonInjuries_DeepWoundMaxDmg = "Deep wound max damage",
+	Sandbox_CommonInjuries_DeepWoundMaxDmg_tooltip = "Maximum damage of deep wound injuries.",
+	
+	Sandbox_CommonInjuries_FractureMinDmg = "Fracture min damage",
+	Sandbox_CommonInjuries_FractureMinDmg_tooltip = "Minimum damage of fracture injuries.",
+	Sandbox_CommonInjuries_FractureMaxDmg = "Fracture max damage",
+	Sandbox_CommonInjuries_FractureMaxDmg_tooltip = "Maximum damage of fracture injuries.",
+	
+	Sandbox_CommonInjuries_BurnMinDmg = "Burn min damage",
+	Sandbox_CommonInjuries_BurnMinDmg_tooltip = "Minimum damage of burn injuries.",
+	Sandbox_CommonInjuries_BurnMaxDmg = "Burn max damage",
+	Sandbox_CommonInjuries_BurnMaxDmg_tooltip = "Maximum damage of burn injuries."
+}
