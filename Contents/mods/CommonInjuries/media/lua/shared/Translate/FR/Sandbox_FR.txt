@@ -1,3 +1,5 @@
+#encoding=WINDOWS-1252
+
 Sandbox_FR = {
 	Sandbox_CommonInjuries = "Common Injuries",
 

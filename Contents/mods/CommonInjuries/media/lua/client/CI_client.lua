@@ -17,7 +17,7 @@ end
 local DamageTypeChance = {
 	SmallDmg = {Pain = 40, Scratch = 50, Cut = 10},
 	MediumDmg = {Pain = 25, Scratch = 40, Cut = 30, DeepWound= 5}, 
-	HeavyDmg = {Pain = 20, Scratch = 30, Cut = 30, Fracture= 5, DeepWound= 5},
+	HeavyDmg = {Pain = 30, Scratch = 30, Cut = 30, Fracture= 5, DeepWound= 5},
 	Burn = {Pain = 30, Burn = 70},
 	}
 for i,v in pairs(DamageTypeChance) do DamageTypeChance[i] = SumProduct(v) end 
@@ -181,11 +181,11 @@ local function TryDamage(player, target_type, dmg_category, perk)
 	if not harm_player then return end;
 	
 	if PainScream then 
-		local rand = ZombRand(12)
+		local rand = ZombRand(7)
 		local text = getText("IGUI_PlayerText_Damage"..tostring(rand))
 		if rand < 2 then player:SayWhisper(text)
 		elseif rand < 4 then player:Say(text)
-		elseif rand < 6 then player:SayShout(text)
+		else player:SayShout(text)
 		end
 	end
 	-- Damage player

@@ -1,3 +1,5 @@
+#encoding=WINDOWS-1252
+
 IGUI_FR = {
 	IGUI_PlayerText_Damage0 = "Grmmmph",
 	IGUI_PlayerText_Damage1 = "Mmmphh",

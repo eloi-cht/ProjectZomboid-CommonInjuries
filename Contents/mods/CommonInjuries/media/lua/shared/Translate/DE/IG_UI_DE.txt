@@ -1,0 +1,10 @@
+#encoding = WINDOWS-1252
+
+IGUI_DE = {
+	IGUI_PlayerText_Damage0 = "Grmmmph",
+	IGUI_PlayerText_Damage1 = "Mmmphh",
+	IGUI_PlayerText_Damage2 = "Autsch!",
+	IGUI_PlayerText_Damage3 = "Aua!",
+	IGUI_PlayerText_Damage4 = "Aua! Aua! Aua!",
+	IGUI_PlayerText_Damage5 = "Ahhh!!",
+}

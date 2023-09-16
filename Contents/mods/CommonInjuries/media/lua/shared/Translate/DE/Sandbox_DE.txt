@@ -1,0 +1,20 @@
+#encoding = WINDOWS-1252
+
+Sandbox_DE = {
+	Sandbox_CommonInjuries = "Common Injuries",
+	
+	Sandbox_CommonInjuries_BaseFailChance = "Grundlegende Wahrscheinlichkeit für Fehlschläge",
+	Sandbox_CommonInjuries_BaseFailChance_tooltip = "Grundlegende Wahrscheinlichkeit für Fehlschläge bei Tätigkeiten.",
+	
+	Sandbox_CommonInjuries_PainScream = "Schmerzschrei",
+	Sandbox_CommonInjuries_PainScream_tooltip = "Spieler schreit bei Verletzungen vor Schmerz.",
+	
+	Sandbox_CommonInjuries_FatigueMultiplier = "Ermüdungsmultiplikator",
+	Sandbox_CommonInjuries_FatigueMultiplier_tooltip = "Multipliziere den Ermüdungsfaktor bei der Berechnung der Verletzungswahrscheinlichkeit.",
+	Sandbox_CommonInjuries_FatigueThreshold = "Ermüdungsschwelle",
+	Sandbox_CommonInjuries_FatigueThreshold_tooltip = "Schwelle ab der die Ermüdung Auswirkungen auf die Verletzungswahrscheinlichkeit hat.",
+	
+	Sandbox_CommonInjuries_SkillMultiplier = "Fähigkeitsmultiplikator",
+	Sandbox_CommonInjuries_SkillMultiplier_tooltip = "Multipliziere den Fähigkeitsfaktor bei der Berechnung der Verletzungswahrscheinlichkeit.",
+
+}
