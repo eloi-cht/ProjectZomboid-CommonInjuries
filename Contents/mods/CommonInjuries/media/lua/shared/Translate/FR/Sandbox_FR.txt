@@ -1,0 +1,28 @@
+Sandbox_FR = {
+	Sandbox_CommonInjuries = "Common Injuries",
+
+	Sandbox_CommonInjuries_BaseFailChance = "Pourcentage de raté par action",
+	Sandbox_CommonInjuries_BaseFailChance_tooltip = "Pourcentage de chance qu'une action entraîne une potentielle blessure",
+
+	Sandbox_CommonInjuries_HinderChance = "Chance de blessures handicapantes",
+	Sandbox_CommonInjuries_HinderChance_tooltip = "Bras droit = réduction de la vitesse d'attaque, Jambe = réduction de la vitesse de déplacement",
+	Sandbox_CommonInjuries_HinderChance_option1 = "Aucune (0%)",
+	Sandbox_CommonInjuries_HinderChance_option2 = "Moyenne (20%)",
+	Sandbox_CommonInjuries_HinderChance_option3 = "Haute (30%)",
+
+	Sandbox_CommonInjuries_AwareDuration = "Durée d'immunité (heures)",
+	Sandbox_CommonInjuries_AwareDuration_tooltip = "Durée (heures) pendant laquelle le personnage est immunisé contre les ratés après avoir été blessé.",
+	
+	Sandbox_CommonInjuries_PainScream = "Cri de douleurs",
+	Sandbox_CommonInjuries_PainScream_tooltip = "Les personnages peuvent crier lorsqu'ils se blessent.",
+
+	Sandbox_CommonInjuries_FatigueMultiplier = "Multiplicateur de fatigue",
+	Sandbox_CommonInjuries_FatigueMultiplier_tooltip = "Modifie le facteur de fatigue dans les calculs des ratés.",
+
+	Sandbox_CommonInjuries_FatigueThreshold = "Fatigue minimale",
+	Sandbox_CommonInjuries_FatigueThreshold_tooltip = "Pourcentage de fatigue à partir duquel le multiplicate s'applique.",
+
+	Sandbox_CommonInjuries_SkillMultiplier = "Multiplicateur de compétence",
+	Sandbox_CommonInjuries_SkillMultiplier_tooltip = "Modifie le facteur de compétence dans le calcul des ratés.",
+
+}

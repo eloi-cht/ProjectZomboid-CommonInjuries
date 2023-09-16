@@ -1,0 +1,70 @@
+VERSION = 1,
+
+option CommonInjuries.BaseFailChance
+{
+	type = double,
+	min = 0,
+	max = 100,
+	default = 3,
+	page = CommonInjuries,
+	translation = CommonInjuries_BaseFailChance,
+}
+
+option CommonInjuries.HinderChance 
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+	page = CommonInjuries,
+	translation = CommonInjuries_HinderChance,
+
+}
+
+option CommonInjuries.AwareDuration 
+{
+	type = integer,
+	min = 0,
+	max = 99,
+	default =3,
+	page = CommonInjuries,
+	translation = CommonInjuries_AwareDuration,
+
+}
+
+option CommonInjuries.PainScream
+{
+	type = boolean,
+	default = true,
+	page = CommonInjuries,
+	translation = CommonInjuries_PainScream,
+}
+
+option CommonInjuries.FatigueMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100,
+	default = 1,
+	page = CommonInjuries,
+	translation = CommonInjuries_FatigueMultiplier,
+}
+
+option CommonInjuries.FatigueThreshold
+{
+	type = integer,
+	min = 0,
+	max = 99,
+	default =30,
+	page = CommonInjuries,
+	translation = CommonInjuries_FatigueThreshold,
+}
+
+option CommonInjuries.SkillMultiplier
+{
+	type = double,
+	min = 0,
+	max = 10,
+	default = 1,
+	page = CommonInjuries,
+	translation = CommonInjuries_SkillMultiplier,
+}

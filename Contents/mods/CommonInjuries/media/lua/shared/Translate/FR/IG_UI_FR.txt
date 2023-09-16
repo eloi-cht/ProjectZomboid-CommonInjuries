@@ -1,0 +1,8 @@
+IGUI_FR = {
+	IGUI_PlayerText_Damage0 = "Grmmmph",
+	IGUI_PlayerText_Damage1 = "Mmmphh",
+	IGUI_PlayerText_Damage2 = "Ouch !",
+	IGUI_PlayerText_Damage3 = "Aie !",
+	IGUI_PlayerText_Damage4 = "Ouille !!",
+	IGUI_PlayerText_Damage5 = "Ahh !!",
+}
